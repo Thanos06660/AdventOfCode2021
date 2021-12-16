@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+Console.WriteLine("First Day");
 Console.WriteLine($"Number of increases {CalculateNumberOfDepthMeasurementIncrease(File.ReadAllLines("SonarMeasurement.txt"))}");
 Console.ReadKey();
 
